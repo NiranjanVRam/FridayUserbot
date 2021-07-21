@@ -314,7 +314,7 @@ async def pmPermit(client, message):
     if user_.is_verified:       
         return
     if user_.is_scam:
-        await message.reply_text("`Scammer Aren't Welcome To My Masters PM!`")
+        await message.reply_text("`Scammers Aren't Welcome To My Masters PM!`")
         await client.block_user(user_.id)
         return
     if user_.is_support:
@@ -329,7 +329,7 @@ async def pmPermit(client, message):
         PM_WARNS[int(message.chat.id)] += 1
     if PM_WARNS[int(message.chat.id)] >= int(pm_s_):
         await message.reply_text(
-            f"`Thats It! I Gave You {int(pm_s_)} Warning. Now Fuck Off. Blocked And Reported!`"
+            f"`That's It! I Gave You {int(pm_s_)} Warnings. Now Fuck Off. Blocked And Reported!`"
         )
         await client.block_user(user_.id)
         if int(message.chat.id) in OLD_MSG:
