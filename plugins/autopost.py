@@ -24,7 +24,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
     ["autopost"],
     cmd_help={
         "help": "Add Channel To AutoPost List!",
-        "example": "{ch}autopost @fridaysupportofficial",
+        "example": "{ch}autopost @fileshomeofficial",
     },
     chnnl_only=True,
 )
@@ -56,7 +56,7 @@ async def autopost(client, message):
     ["rmautopost"],
     cmd_help={
         "help": "Remove A Channel From Autopost List",
-        "example": "{ch}rmautopost @fridaysupportofficial",
+        "example": "{ch}rmautopost @fileshomeofficial",
     },
     chnnl_only=True,
 )
