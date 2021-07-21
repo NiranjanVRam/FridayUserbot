@@ -54,5 +54,5 @@ async def rename(client, message):
         progress_args=(pablo, c_time, f"`Uploading {fname}`", EsCoBaR),
     )
     await pablo.edit(
-        "File Renamed and Uploaded. By FridayUserBot. Get your FridayUserBot from @fridaychat"
+        "File Renamed and Uploaded. By FridayUserBot."
     )
