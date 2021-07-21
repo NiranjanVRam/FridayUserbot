@@ -22,7 +22,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
     ["badd"],
     cmd_help={
         "help": "Add Group/Channel For Broadcast!. Give input as 'all' to add all.",
-        "example": "{ch}badd @fridaysupportofficial",
+        "example": "{ch}badd @fileshomeofficial",
     },
 )
 async def badd(client, message):
@@ -65,7 +65,7 @@ async def badd(client, message):
     ["brm"],
     cmd_help={
         "help": "Remove Group/Channel From Broadcast dB!. Give input as 'all' to Remove all.",
-        "example": "{ch}brm @fridaysupportofficial",
+        "example": "{ch}brm @fileshomeofficial",
     },
 )
 async def brm(client, message):
