@@ -9,9 +9,9 @@
     "fridaybot",
     "productivity"
   ],
-  "repository": "https://github.com/starkgang/FridayUserbot",
-  "website": "t.me/fridayot",
-  "success_url": "t.me/FridayOT",
+  "repository": "https://github.com/NiranjanVRam/FridayUserbot",
+  "website": "https://t.me/fileshomeofficial",
+  "success_url": "https://t.me/fileshomeofficial",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -49,7 +49,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Your Upstream URL HERE. If You're Beginner, Don't Change This.",
-      "value": "https://github.com/DevsExpo/FridayUserBot",
+      "value": "https://github.com/NiranjanVRam/FridayUserbot",
       "required": false
     },
     "BOT_TOKEN": {
@@ -62,7 +62,7 @@
       "value": "Asia/Kolkata"
     },
     "STRINGSESSION": {
-      "description": "String Session, Run string_gen.py to get String Session.",
+      "description": "String Session, Run string_gen.py to get String Session Or Go to @fhstrgenbot in telegram.",
       "value": ""
     }
   }
