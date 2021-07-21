@@ -260,7 +260,7 @@ async def pur_ge_me(client, message):
     ["invite", "add"],
     cmd_help={
         "help": "Add Users To Channel / Groups!",
-        "example": "{ch}invite @Midhun_xD @chsaiujwal @meisnub",
+        "example": "{ch}invite @liqwid_x",
     },
 )
 async def add_user_s_to_group(client, message):
@@ -282,7 +282,7 @@ async def add_user_s_to_group(client, message):
     ["a2c"],
     cmd_help={
         "help": "Add Users To Your Contacts!",
-        "example": "{ch}a2c @Meisnub",
+        "example": "{ch}a2c @liqwid_x",
     },
 )
 async def add_user_s_to_contact(client, message):
