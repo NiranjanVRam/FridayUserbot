@@ -272,7 +272,7 @@ async def deezer(client, message):
 
 Music Downloaded And Uploaded By Friday Userbot
 
-Get Your Friday From @FridayOT"""
+© @fileshomeofficial"""
     await pablo.edit(f"`Downloaded {sname}! Now Uploading Song...`")
     await client.send_audio(
         message.chat.id,
