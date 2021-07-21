@@ -1,31 +1,18 @@
-<p align="center"><a href="https://t.me/fridayot"><img src="https://telegra.ph/file/22535f8051a58af113586.jpg" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/fhfridaybot"><img src="https://telegra.ph/file/22535f8051a58af113586.jpg" width="5000"></a></p> 
 <h1 align="center"><b>FRIDAY-USERBOT 🇮🇳 </b></h1>
 <h4 align="center">A Powerful, Smart And Simple Userbot In Pyrogram.</h4>
 
 
 ## Support 🚑
-<a href="https://t.me/FridaySupportOfficial"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/fridayOT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-
-## Inspiration & Credits
-* [Userge-X](https://github.com/code-rgb/USERGE-X/contributors)
-* [Userge](https://github.com/UsergeTeam/Userge)
-* [Pokurt](https://github.com/UsergeTeam/Pokurt)
-* [Pyrogram](https://github.com/pyrogram/pyrogram/contributors)
-
-## Code Owners
-* [Chsaiujwal](https://github.com/chsaiujwal)
-* [Aditya](https://github.com/Aditya-XD)
-* [Lakhac](https://github.com/Lakhac)
-* [InukaAsith](https://github.com/InukaAsith)
-* [SHRE-YANSH](https://github.com/SHRE-YANSH)
+<a href="https://t.me/fhsupportgrp"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/fileshomeofficial"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 # String Session - Pyrogram 🖱
 ### Repl 🧨
-[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@MIDHUNKMKM/StringGen)
+[![Run on Repl.it](https://replit.com/@FilesHome/getStringName)](https://replit.com/@FilesHome/getStringName)
 ### Locally 🏆
 ```
-$ git clone https://github.com/DevsExpo/FridayUserbot
+$ git clone https://github.com/NiranjanVRam/FridayUserbot
 $ cd FridayUserbot
 $ python(3) string_gen.py
 ```
@@ -34,12 +21,12 @@ $ python(3) string_gen.py
 
 ### Deploying To Heroku ⚙
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DevsExpo/FridayUserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NiranjanVRam/FridayUserbot)
 
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First // (Else You Can Download And Upload to Your Local Server)
-$ git clone https://github.com/DevsExpo/FridayUserbot
+$ git clone https://github.com/NiranjanVRam/FridayUserbot
 # Open Git Cloned File
 $ cd FridayUserbot
 # Install All Requirements 
@@ -55,7 +42,7 @@ $ python(3) -m main_startup
 [+] Make Sure You Add All These Mandatory Vars. 
     [-] API_ID:   You can get this value from https://my.telegram.org
     [-] API_HASH :   You can get this value from https://my.telegram.org
-    [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
+    [-] STRINGSESSION : Your String Session, You can get this From Repl or by using @fhstrgenbot in telegram
     [-] MONGO_DB : Your Mongo DB DataBase Url. 
     [-] LOG_GRP: Your Log Group/Channel Chat ID. This is Very Important and Some Modules Will Not Work Well Without This!
 [+] The fridayUserbot will not work without setting the mandatory vars.
@@ -88,7 +75,7 @@ async def mentioned_(client, message):
 ```
 
 # X-Tra Plugins 🎸
-* Please Visit [Xtra-Plugins](https://github.com/DevsExpo/Xtra-Plugins) To Checkout Xtra-Plugins.
+* Please Visit [Xtra-Plugins](https://github.com/NiranjanVRam/Xtra-Plugins) To Checkout Xtra-Plugins.
 
 
 # Licence 📋
