@@ -39,7 +39,7 @@ async def start(client, message):
     bot_username = starkbot.username
     firstname = message.from_user.first_name
     user_id = message.from_user.id
-    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am {bot_name}, An Powerfull Assistant Bot To Talk And Do Many Things For My Master!`. \n\nPowered By [FILES HOME](t.me/fileshomeofficial)"
+    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am {bot_name}, An Powerfull Assistant Bot To Talk And Do Many Things For My Master!`. \n\nPowered By [LiqWid](t.me/liqwid_x)"
     mypic = Config.ASSISTANT_START_PIC
     if user_id not in all_user_s:
         await client.send_photo(
@@ -261,7 +261,7 @@ async def tts_(client, message):
     metadata = extractMetadata(createParser(f"{kk.get(language)}.ogg"))
     if metadata and metadata.has("duration"):
         duration = metadata.get("duration").seconds
-    owoc = f"**TTS** \n**Detected Text Language :** `{dec_s.capitalize()}` \n**Speech Text :** `{kk.get(language)}` \n**Time Taken :** `{hmm_time}s` \n__Powered By @fileshomeofficial__"
+    owoc = f"**TTS** \n**Detected Text Language :** `{dec_s.capitalize()}` \n**Speech Text :** `{kk.get(language)}` \n**Time Taken :** `{hmm_time}s` \n__ Powered By @liqwid_x __"
     await message.reply_audio(
         audio=f"{kk.get(language)}.ogg", caption=owoc, duration=duration
     )
