@@ -10,7 +10,7 @@ nowtime=$(date)
 echo "
 FridayUserBot
 
-(C) @fileshomeofficial
+(C) @liqwid_x
 Powered By @liqwid_x
 Time : $nowtime
 "
@@ -40,7 +40,7 @@ ech_final () {
 Deployment Sucessfull.
 Docker Images Are Being Pushed, Please Wait.
 Thank You For Installing FridayUB.
-(C) @fileshomeofficial
+(C) @liqwid_x
 =+---------------------------------------------------------+=
 
     "
