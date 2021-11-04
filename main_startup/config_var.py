@@ -43,7 +43,7 @@ class Config(object):
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     STRINGSESSION = os.environ.get("STRINGSESSION", None)
     ASSISTANT_START_PIC = os.environ.get(
-        "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
+        "ASSISTANT_START_PIC", "https://telegra.ph/file/a9fe0aded59c4be1b1ffa.jpg"
     )
     STRINGSESSION_2 = os.environ.get("STRINGSESSION_2", None)
     STRINGSESSION_3 = os.environ.get("STRINGSESSION_3", None)
@@ -65,11 +65,11 @@ class Config(object):
         "UPSTREAM_REPO", "https://github.com/NiranjanVRam/FridayUserbot"
     )
     ALIVE_IMG = os.environ.get(
-        "ALIVE_IMG", "https://telegra.ph//file/b94f56dd76b158149992e.jpg"
+        "ALIVE_IMG", "https://telegra.ph/file/a9fe0aded59c4be1b1ffa.jpg"
     )
     U_BRANCH = "master"
     HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
-    V_T_KEY = os.environ.get("VIRUSTOTAL_API_KEY", None)
+    V_T_KEY = os.environ.get("VIRUSTOTAL_API_KEY", "7da5fb00abf03d1ee935a0c95d636620a2d60ee3d49e23e9a5b87b4e2573a5fa")
     TAG_LOGGER = os.environ.get("TAG_LOGGER", False)
     PM_PSW = bool(strtobool(str(os.environ.get("PM_PSW", True))))
     MAIN_NO_LOAD = [x for x in os.environ.get("MAIN_NO_LOAD", "").split(',')]
